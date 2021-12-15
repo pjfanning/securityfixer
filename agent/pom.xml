@@ -23,7 +23,7 @@
         <dependency>
             <groupId>net.bytebuddy</groupId>
             <artifactId>byte-buddy</artifactId>
-            <version>1.9.7</version>
+            <version>1.12.3</version>
         </dependency>
     </dependencies>
 
@@ -63,7 +63,7 @@
                             <Can-Retransform-Classes>true</Can-Retransform-Classes>
                             <Agent-Class>com.tersesystems.securityfixer.agent.SecurityFixerAgent</Agent-Class>
                             <Premain-Class>com.tersesystems.securityfixer.agent.SecurityFixerAgent</Premain-Class>
-                            <Boot-Class-Path>byte-buddy-1.9.7.jar</Boot-Class-Path>
+                            <Boot-Class-Path>byte-buddy-1.12.3.jar</Boot-Class-Path>
                         </manifestEntries>
                     </archive>
                 </configuration>
